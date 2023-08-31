@@ -1,0 +1,9 @@
+[Unit]
+Description=Fecha y Hola Mundo - Actividad 4
+
+[Service]
+Type=simple
+ExecStart=/home/federico/actividad4.sh
+
+[Install]
+WantedBy=multi-user.target
